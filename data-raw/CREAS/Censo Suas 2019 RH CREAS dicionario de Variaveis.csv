@@ -1,0 +1,117 @@
+﻿Variáveis;Rótulos
+IBGE;IBGE_codigo_ibge_IBGE
+UF;Nome_UF_UF
+Regiao;Regiao_Região
+IBGE7;IBGE7_codigo IBGE com 7 digitos
+Municipio;Município
+Porte_pop2010;Porte_pop2010_Porte_pop2010
+Pop_total_2010;Pop_total_2010_Pop_total_2010
+Pop_Urbana2010;Pop_Urbana2010_Pop_Urbana2010
+Pop_Rural2010;Pop_Rural2010_Pop_Rural2010
+areaKm2;area Km2_area Km2
+Q_completo;Q_completo _Q_completo _questionarios completos
+NU_IDENTIFICADOR;NU_IDENTIFICADOR_id_creas_NU_IDENTIFICADOR
+q58_1;q58_1_v10581_58.1. Nome Completo
+co_seq_dirigente;co_seq_dirigente_co_seq_dirigente_co_seq_dirigente
+q58_2;q58_2_v10582_58.2. Data de nascimento
+q58_3;q58_3_v10583_58.3. Sexo
+q58_4;q58_4_v10584_58.4. Número do CPF
+q58_5;q58_5_v10585_58.5. RG - Número
+q58_6;q58_6_v10586_58.6. RG - Órgão Emissor
+q58_8;q58_8_v10588_58.8. Escolaridade
+q58_9;q58_9_v10589_58.9. Profissão
+q58_10;q58_10_v10590_58.10. Vínculo
+q58_11;q58_11_v10591_58.11. Função
+q58_12;q58_12_v10592_58.12. Carga horária SEMANAL
+q58_13;q58_13_v10593_58.13. Início do exercício da função
+q58_14;q58_14_v10594_58.14. Serviços/Atividade a qual o profissional está vinculado - Principal serviço/atividade
+q58_15;q58_15_v10595_58.15. Serviços/Atividade a qual o profissional está vinculado - Segundo principal serviço/atividade
+q58_16;q58_16_v10596_58.16. Serviços/Atividade a qual o profissional está vinculado - Terceiro principal serviço/atividade
+DataCenso;"COMPUTE DataCenso=""31.08.2019"""
+DataCenso_2019;DataCenso recodificada
+Idade;Idade
+Faixas_etarias;Faixas etárias dos Trabalhadores dos CRAS
+d_58_8;d_58_8_Níveis de escolaridade
+d_58_8bin1;d_58_8bin1_Nível fundamental - Trabalhadores que possuem até o nível médio (inclui aqueles sem escolaridade)
+d_58_8bin2;d_58_8bin2_Nível médio - Trabalhadores com ensino superior incompleto e ensino médio completo
+d_58_8bin3;d_58_8bin3_Nível superior - inclui Trabalhadores graduados, com especialização, mestrado ou doutorado
+d_58_9;d_58_9 _Profissão
+d_58_9bin1;d_58_9 bin1_Pedagogo
+d_58_9bin2;d_58_9 bin2_Assistente Social
+d_58_9bin3;d_58_9 bin3_Antropólogo
+d_58_9bin4;d_58_9bin4_Advogado
+d_58_9bin5;d_58_9 bin5_Psicologo
+d_58_10;bin3    'd_58_10bin3_Comissionado'
+d_58_10bin1;d_58_10bin1_Servidor Estatutário
+d_58_10bin2; d_58_10bin2_Empregado Público (CLT)
+d_58_10bin3;
+d_58_10bin4;"d_58_10bin4_Outros vínculos não permanentes - inclui Trabalhador de Empresas/Cooperativa/Entidade Prestadora de Serviços; Voluntários; Servidor Temporário; Sem vínculo; Terceirizado e Outro vínculo não permanente"
+d_58_8bin1_sum;d_58_8bin1_Número de trabalhadores de Nível fundamental (inclui trabalhadores sem escolaridade, fundamental incompleto e ensino médio incompleto)
+d_58_8bin2_sum;d_58_8bin2_Número de trabalhadores de Nível médio (inclui trabalhadores com ensino superior incompleto)
+d_58_8bin3_sum;d_58_8bin3_Número de trabalhadores de Nível superior (inclui trabalhadores com especialização, mestrado e doutorado)
+d_58_9bin1_sum;d_58_9bin1_Número de Pedagogos
+d_58_9bin2_sum;d_58_9bin2_Número de Assistentes Sociais
+d_58_9bin3_sum;d_58_9bin3_Número de Antropólogos
+d_58_9bin4_sum;d_58_9bin4_Número de Advogados
+d_58_9bin5_sum;d_58_9bin5_Número de Psicólogos
+d_58_10bin1_sum;d_58_10bin1_Número de Servidores Estatutários
+d_58_10bin2_sum;d_58_10bin2_Número de Empregados Públicos(CLT)
+d_58_10bin3_sum;d_58_10bin3_Número de Comissionados
+d_58_10bin4_sum;d_58_10bin4_Número de profissionais com outros vínculos não permanentes
+nu_trabalhador;Número de trabalhadores no CRAS
+d_58_14_1bin_Gestão;d_58_14_1bin_Gestão - Principal serviço/atividade
+d_58_14_1bin_PAIF;d_58_14_1bin_PAIF - Principal serviço/atividade
+d_58_14_1bin_SCFV;d_58_14_1bin_SCFV - Principal serviço/atividade
+d_58_14_1bin_PSB; d_58_14_1bin_PSB- Principal serviço/atividade
+d_58_14_1bin_Cadastramento;d_58_14_1bin_Cadastramento - Principal serviço/atividade
+d_58_14_1bin_Beneficios;d_58_14_1bin_Beneficios - Principal serviço/atividade
+d_58_14_1bin_PCF;d_58_14_1bin_PCF - Principal serviço/atividade
+d_58_14_1bin_Outros;d_58_14_1bin_Outros - Principal serviço/atividade
+d_58_15_2bin_Gestão;d_58_15_2bin_Gestão - Principal serviço/atividade
+d_58_15_2bin_PAIF;d_58_15_2bin_PAIF - Principal serviço/atividade
+d_58_15_2bin_SCFV;d_58_15_2bin_SCFV - Principal serviço/atividade
+d_58_15_2bin_PSB; d_58_15_2bin_PSB- Principal serviço/atividade
+d_58_15_2bin_Cadastramento;d_58_15_2bin_Cadastramento - Principal serviço/atividade
+d_58_15_2bin_Beneficios;d_58_15_2bin_Beneficios - Principal serviço/atividade
+d_58_15_2bin_PCF;d_58_15_2bin_PCF - Principal serviço/atividade
+d_58_15_2bin_Outros;d_58_15_2bin_Outros - Principal serviço/atividade
+d_58_16_3bin_Gestão;d_58_16_3bin_Gestão - Principal serviço/atividade
+d_58_16_3bin_PAIF;d_58_16_3bin_PAIF - Principal serviço/atividade
+d_58_16_3bin_SCFV;d_58_16_3bin_SCFV- Principal serviço/atividade
+d_58_16_3bin_PSB; d_58_16_3bin_PSB- Principal serviço/atividade
+d_58_16_3bin_Cadastramento;d_58_16_3bin_Cadastramento - Principal serviço/atividade
+d_58_16_3bin_Beneficios;d_58_16_3bin_Beneficios - Principal serviço/atividade
+d_58_16_3bin_PCF;d_58_16_3bin_PCF - Principal serviço/atividade
+d_58_16_3bin_Outros;d_58_16_3bin_Outros - Principal serviço/atividade
+Gestao;Atividades de Gestão - mencionada, no minimo, 1 vez
+PAIF;PAIF - mencionado, no mínimo, 1 vez
+SCFV;SCFV - mencionado, no mínimo, 1 vez
+PSB;PSB no domicilio - mencionada, no mínimo, 1 vez
+Cadastramento;Cadastramento e/ou atualização cadastral (CadÚnico) -  mencionado, no mínimo, 1 vez
+Beneficios;Beneficios eventuais - mencionado, no mínimo, 1 vez
+PCF;Programa Criança Feliz - mencionado, no mínimo, 1 vez
+Outros;Outras atividades - mencionadas, no mínimo, 1 vez
+d_58_14_1bin_Gestão_sum;d_58_14_1bin_Gestão - Principal serviço/atividade
+d_58_14_1bin_PAIF_sum;d_58_14_1bin_PAIF - Principal serviço/atividade
+d_58_14_1bin_SCFV_sum;d_58_14_1bin_SCFV - Principal serviço/atividade
+d_58_14_1bin_PSB_sum;d_58_14_1bin_PSB - Principal serviço/atividade
+d_58_14_1bin_Cadastramento_sum;d_58_14_1bin_Cadastramento - Principal serviço/atividade
+d_58_14_1bin_Beneficios_sum;d_58_14_1bin_Beneficios - Principal serviço/atividade
+d_58_14_1bin_PCF_sum;d_58_14_1bin_PCF- Principal serviço/atividade
+d_58_14_1bin_Outros_sum;d_58_14_1bin_Outros - Principal serviço/atividade
+d_58_15_2bin_Gestão_sum;d_58_15_2bin_Gestão - Segundo principal serviço/atividade
+d_58_15_2bin_PAIF_sum;d_58_15_2bin_PAIF -Segundo principal serviço/atividade
+d_58_15_2bin_SCFV_sum;d_58_15_2bin_SCFV - Segundo principal serviço/atividade
+d_58_15_2bin_PSB_sum;d_58_15_2bin_PSB - Segundo principal  serviço/atividade
+d_58_15_2bin_Cadastramento_sum;d_58_15_2bin_Cadastramento - Segundo principal  serviço/atividade
+d_58_15_2bin_Beneficios_sum;d_58_15_2bin_Beneficios - Segundo principal serviço/atividade
+d_58_15_2bin_PCF_sum;d_58_15_2bin_PCF- Segundo principal  serviço/atividade
+d_58_15_2bin_Outros_sum;d_58_15_2bin_Outros - Segundo principal  serviço/atividade
+d_58_16_3bin_Gestão_sum;d_58_16_3bin_Gestão - Terceiro principal serviço/atividade
+d_58_16_3bin_PAIF_sum;d_58_16_3bin_PAIF -Terceiro principal serviço/atividade
+d_58_16_3bin_SCFV_sum;d_58_16_3bin_SCFV - Terceiro principal serviço/atividade
+d_58_16_3bin_PSB_sum;d_58_16_3bin_PSB - Terceiro principal  serviço/atividade
+d_58_16_3bin_Cadastramento_sum;d_58_16_3bin_Cadastramento - Terceiro principal  serviço/atividade
+d_58_16_3bin_Beneficios_sum;d_58_16_3bin_Beneficios - Terceiro principal serviço/atividade
+d_58_16_3bin_PCF_sum;d_58_16_3bin_PCF- Terceiroo principal  serviço/atividade
+d_58_16_3bin_Outros_sum;d_58_16_3bin_Outros - Terceiro principal  serviço/atividade
