@@ -143,6 +143,11 @@ centros_2019 <- centros_2019 %>% dplyr::select(code_suas,
 # Salva em formato .csv
 readr::write_csv(centros_2019,here::here('data', "csv", 'centros_2019.csv'))
 
+# As coordenadas com erro foram corrigidas manualmente
+# Carrega mesma base de dados, corrigida
+
+centros_2019 <- data.table::fread(here::here('data', 'csv', 'centros_2019 - centros_2019.csv'))
+
 # Cria arquivo shapefile de pontos
 
 centros_2019_sf <- sf::st_as_sf(centros_2019 %>% na.omit(),
@@ -150,5 +155,5 @@ centros_2019_sf <- sf::st_as_sf(centros_2019 %>% na.omit(),
                                 crs = 4674)
 
 # Salva arquivo
-sf::st_write(centros_2019_sf, here::here('data',"shapes", 'centros_2019.shp'))
+sf::st_write(centros_2019_sf, here::here('data',"shapes", 'centros_2019 - centros_2019.shp'))
 

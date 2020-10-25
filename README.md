@@ -1,5 +1,7 @@
 # Localização dos Centros de Assistência Social do Brasil
 
+![Centros de Assistência Social no Brasil](img/brasil.png)
+
 De acordo com o [Ministério da Cidadania](https://www.gov.br/cidadania/pt-br/acoes-e-programas/assistencia-social), 
 
   *"A Assistência Social é uma política pública Secretaria Nacional de Assistência Social (SNAS); um direito de todo cidadão que dela necessitar. Ela está organizada por meio do Sistema Único de Assistência Social (Suas), presente em todo o Brasil. Seu objetivo é garantir a proteção social aos cidadãos, ou seja, apoio a indivíduos, famílias e à comunidade no enfrentamento de suas dificuldades, por meio de serviços, benefícios, programas e projetos."*
