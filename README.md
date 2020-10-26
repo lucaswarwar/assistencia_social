@@ -1,5 +1,7 @@
 # Localização dos Centros de Assistência Social do Brasil
 
+O objetivo desse repositório é criar e disponibilizar publicamente uma base de dados colaborativa com a distribuição espacial dos centros de assistência social no Brasil. **Este é um trabalho em construção**.
+
 ![Centros de Assistência Social no Brasil](img/brasil.png)
 
 De acordo com o [Ministério da Cidadania](https://www.gov.br/cidadania/pt-br/acoes-e-programas/assistencia-social), 
@@ -20,7 +22,7 @@ O Centro de Referência Especializado de Assistência Social (Creas) é uma unid
 
 Embora existam dados públicos sobre a localização desses centros divulgados no [Censo SUAS](http://aplicacoes.mds.gov.br/snas/vigilancia/index2.php) anual, tais bases são de difícil acesso e o georreferenciamento declarado pelos centros é muitas vezes vezes falho, o que inviabiliza o real conhecimento da acessibilidade da população a serviços de proteção social. 
 
-Este repositório traz uma base de dados em .csv construída a partir da re-geolocalização do centros do Censo SUAS 2019 usando o endereço dos centros e a [Google Maps API](https://developers.google.com/maps/documentation/geocoding/overview), facilitando a disponibilidade dessa informação para pesquisadores e o público em geral. Até o momento, todos os 8.347 Cras e 2.686 Creas em funcionamento em 2019 foram re-geolocalizados. 
+Este repositório traz uma [base de dados](https://github.com/lucaswarwar/assistencia_social/blob/main/data/csv/centros_2019%20-%20centros_2019.csv) em .csv construída a partir da re-geolocalização do centros do Censo SUAS 2019 usando o endereço dos centros e a [Google Maps API](https://developers.google.com/maps/documentation/geocoding/overview), facilitando a disponibilidade dessa informação para pesquisadores e o público em geral. Até o momento, todos os 8.347 Cras e 2.686 Creas em funcionamento em 2019 foram re-geolocalizados. Após a geolocalização, centros com inconsistências foram corrigidas por meio de busca manual pela localização dos mesmos. No entanto, muito possivelmente ainda existem inconsistências, de modo que o uso das informações da base deve levar em conta essa ressalva. Inclusive, caso encontre algum desses erros, por favor entrar em contato via lucas.warwar@gmail.com. **Esse repositório é um trabalho em construção**.
 
 Para cada centro, estão disponíveis o nome código IBGE do município, UF, o código do centro no SUAS, o nome do centro, telefone, data de abertura, endereço completo, tipo (cras ou Creas) e coordenadas geográficas (latitudade e longitude). Além do arquivo em .csv, estão disponíveis também um arquivo .shp com as mesmas informação em formato shapefile e os scripts com o código em R utilizado na limpeza e geolocalização. 
 
